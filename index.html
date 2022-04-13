@@ -14,17 +14,24 @@
             -o-background-size:cover;
             background-size: cover;
         }
-        thebox{
-            margin: 0 auto;
+        .box{
+            display: flex;
+        }
+        .thebox{
+            margin: 100px auto;
+            border-style: solid;
+            background: rgba(239, 237, 228, 0.3);
+            border-radius: 50px;
+            /* opacity: 0.5; */
         }
         h5{
             line-height: 10px; 
         }
         h2{
             padding:10px;
-            background-color: blanchedalmond;
+            background-color: rgb(237, 231, 160);
             border-radius: 20ch;
-            box-shadow: 10px 5px 15px #f5f790;
+            box-shadow: 10px 5px 15px #aae1f2;
             font-size: 40px;
             text-align: center;
         }
@@ -62,9 +69,23 @@
         table{
             margin: auto;
         }
-        /* .f{
+             /*.class2{
             display: flex;
-
+            flex-direction: column;
+            position: fixed;
+        background-color: #f5f790;
+            
+        }
+        #ff{
+            transform: rotate(360);
+            position: relative;
+            top: 80px;
+            right: 80px;
+        }
+        .f{
+            display: flex;
+            animation-iteration-count: infinite;
+            /* transform: rotate(360); 
         }
         .f1{
             width: 0;
@@ -72,7 +93,6 @@
             border: 50px solid rgb(223, 242, 50);
             border-right:  50px solid transparent;
             border-top:  50px solid transparent;
-            transform: rotate(360);
         }
         .f2{
             width: 0;
@@ -81,14 +101,14 @@
             border-right:  50px solid transparent;
             border-bottom:  50px solid transparent;
         }
-        .f3{
+        .f4{
             width: 0;
             height: 0;
             border: 50px solid rgb(223, 242, 50);
             border-left:  50px solid transparent;
             border-bottom:  50px solid transparent;
         }
-        .f4{
+        .f3{
             width: 0;
             height: 0;
             border: 50px solid rgb(223, 242, 50);
@@ -98,6 +118,7 @@
     </style>
 </head>
 <body text="purple" background="https://img.tukuppt.com/ad_preview/00/12/73/5c9965269004b.jpg!/fw/980" >
+    <div class="box">
     <div class="thebox">
     <h5>
     </h5>
@@ -192,6 +213,9 @@
             </li>
         </ol>
     </ul>
+</div>
+</div>
+    <div class="class2" id="ff">
     <div class="f">
         <div class="f1"></div>
         <div class="f2"></div>
@@ -201,10 +225,11 @@
         <div class="f4"></div>
     </div>
 </div>
+</div>
 <div class="h">
     <a href="http://127.0.0.1:5500/html/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/index3.html">官网</a>
     <a href="https://github.com/7024zbq/from.github.io/blob/5d52064fbc03e3049ded4a2860852a13d1cb282c/index.html">表格</a>
 </div>
-</div>
+
 </body>
 </html>
